@@ -206,6 +206,17 @@ h6 {
   position: relative;
 }
 
+.blink_text {
+  animation: blinker 1s linear infinite;
+  color: #ff5828;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -306,6 +317,49 @@ h6 {
     left: -100%;
   }
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background: none;
+  color: #6f6f6f;
+  border: none;
+  font-size: 15px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownlist {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownlist-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownlist-content a {
+  color: #6f6f6f;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownlist-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdownlist:hover .dropdownlist-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdownlist:hover .dropbtn {background-color: #fff;}
+
 
 /**
 * Mobile Navigation 
