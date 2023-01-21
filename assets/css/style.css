@@ -479,6 +479,8 @@ h6 {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 255, 0.5)),url("../img/cover.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #hero .container {
