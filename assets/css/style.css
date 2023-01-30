@@ -564,13 +564,13 @@ h6 {
 
 .fas
 {
-    margin-right:4px !important; /*override*/
+    margin-right:4px !important; 
     
 }
 
 .pagination .fas
 {
-    margin-right:0px !important; /*override*/
+    margin-right:0px !important; 
 }
 
 .pagination a
@@ -632,6 +632,23 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Lists
+--------------------------------------------------------------*/
+
+.lists{
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+}
+.lists a{
+  color: #252525;
+}
+.lists a:hover{
+  color: #34b7a7;
+}
+
 
 /*--------------------------------------------------------------
 # Cta
