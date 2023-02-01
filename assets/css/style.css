@@ -318,16 +318,40 @@ h6 {
   }
 }
 
+
+
+
+
+/* Dropdown Button */
 /* Dropdown Button */
 .dropbtn {
   background: none;
   color: #6f6f6f;
   border: none;
   font-size: 15px;
- 
+  border-radius: 5px;
+  position: relative;
 }
 
-/* The container div dropdown content */
+.dropbtn:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #34b7a7;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.dropbtn:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+/* The container div for the dropdown content */
 .dropdownlist {
   position: relative;
   display: inline-block;
@@ -341,6 +365,7 @@ h6 {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 10px;
 }
 
 /* Links inside the dropdown */
@@ -349,16 +374,35 @@ h6 {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  position: relative;
 }
 
-/* Change color of dropdown links on hover */
+.dropdownlist-content a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #34b7a7;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.dropdownlist-content a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
 .dropdownlist-content a:hover {background-color: #fff;}
-
-/* Show the dropdown menu on hover */
 .dropdownlist:hover .dropdownlist-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdownlist:hover .dropbtn {background-color: #fff;}
+
+
+/*** End Drop down button*/
+
+
 
 
 /**
