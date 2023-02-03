@@ -1021,11 +1021,10 @@ section {
 /* Facilities info text */
 .image-info {
   font-family: "Raleway", sans-serif;
-  position: absolute;
   bottom: 8px;
   left: 16px;
   font-size: 20px;
-  color: #fff;
+  color: #252525;
   font-weight: 600;
 }
 
