@@ -149,25 +149,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Header Social Links
---------------------------------------------------------------*/
-.header-social-links {
-  padding-right: 15px;
-}
-
-.header-social-links a {
-  color: #6f6f6f;
-  padding-left: 6px;
-  display: inline-block;
-  line-height: 0px;
-  transition: 0.3s;
-  font-size: 16px;
-}
-
-.header-social-links a:hover {
-  color: #34b7a7;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -790,7 +771,7 @@ section {
 /*--------------------------------------------------------------
 # Acitivity
 --------------------------------------------------------------*/
-.services .icon-box {
+.activity .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -798,7 +779,7 @@ section {
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .icon-box .icon {
+.activity .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -809,109 +790,109 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.activity .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.activity .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .icon-box .icon svg path {
+.activity .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.activity .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.activity .icon-box h4 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.activity .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .iconbox-blue i {
+.activity .iconbox-blue i {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.activity .iconbox-blue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
+.activity .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
 
-.services .iconbox-orange i {
+.activity .iconbox-orange i {
   color: #ffa76e;
 }
 
-.services .iconbox-orange:hover .icon i {
+.activity .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
+.activity .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
 
-.services .iconbox-pink i {
+.activity .iconbox-pink i {
   color: #e80368;
 }
 
-.services .iconbox-pink:hover .icon i {
+.activity .iconbox-pink:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-pink:hover .icon path {
+.activity .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
 
-.services .iconbox-yellow i {
+.activity .iconbox-yellow i {
   color: #ffbb2c;
 }
 
-.services .iconbox-yellow:hover .icon i {
+.activity .iconbox-yellow:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-yellow:hover .icon path {
+.activity .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
 
-.services .iconbox-red i {
+.activity .iconbox-red i {
   color: #ff5828;
 }
 
-.services .iconbox-red:hover .icon i {
+.activity .iconbox-red:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-red:hover .icon path {
+.activity .iconbox-red:hover .icon path {
   fill: #ff5828;
 }
 
-.services .iconbox-teal i {
+.activity .iconbox-teal i {
   color: #11dbcf;
 }
 
-.services .iconbox-teal:hover .icon i {
+.activity .iconbox-teal:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-teal:hover .icon path {
+.activity .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
 
@@ -919,19 +900,18 @@ section {
 # Gallery
 --------------------------------------------------------------*/
 
-
-.portfolio .portfolio-item {
+.gallery .gallery-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.gallery #gallery-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.gallery #gallery-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
@@ -945,24 +925,24 @@ section {
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.gallery #gallery-flters li:hover,
+.gallery #gallery-flters li.filter-active {
   color: #fff;
   background: #34b7a7;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.gallery #gallery-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.gallery .gallery-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.gallery .gallery-wrap::before {
   content: "";
   position: absolute;
   left: 0;
@@ -974,11 +954,11 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.gallery .gallery-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.gallery .gallery-wrap .gallery-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -994,13 +974,13 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.gallery .gallery-wrap .gallery-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.gallery .gallery-wrap .gallery-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -1009,12 +989,12 @@ section {
   font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.gallery .gallery-wrap .gallery-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.gallery .gallery-wrap .gallery-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -1022,19 +1002,19 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.gallery .gallery-wrap .gallery-links a:hover {
   color: #78d9cd;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.gallery .gallery-wrap:hover::before {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.gallery .gallery-wrap:hover img {
   transform: scale(1.2);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.gallery .gallery-wrap:hover .gallery-info {
   opacity: 1;
 }
 
@@ -1117,3 +1097,39 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
+/*--------------------------------------------------------------
+# Footer Social Links
+--------------------------------------------------------------*/
+.footer-social-links {
+  padding-right: 15px;
+}
+
+.footer-social-links a {
+  color: #6f6f6f;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.footer-social-links a:hover {
+  color: #34b7a7;
+}
+/*Designed By*/
+
+.designedby{
+  color: #222222;
+  font-size: 11px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 11px;
+}
+.designedby a{
+  font-size: 11px;
+  color: #252525;
+  }
+  .designedby a:hover {
+    color: #0a7bb8;
+  }
