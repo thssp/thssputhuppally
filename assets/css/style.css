@@ -138,7 +138,7 @@ h6 {
 
 #header .logo a {
   color: #222222;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #header .logo img {
@@ -1133,8 +1133,8 @@ section {
 }
 .designedby a{
   font-size: 11px;
-  color: #252525;
+  color: #0082ca;
   }
   .designedby a:hover {
-    color: #0a7bb8;
+    color: #354fa7;
   }
