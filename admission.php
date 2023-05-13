@@ -1,16 +1,6 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
-    <title>Admission - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
-    <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
-  </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-    
+<head>
+    <title>Admissions - THSS Puthuppally</title>
+    </head>
 
     <main id="main">
       <!-- ======= Admissions Section ======= -->
@@ -72,11 +62,4 @@
         </div>
       </section>
 </main>
-    <!--End main-->
-
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>
+  

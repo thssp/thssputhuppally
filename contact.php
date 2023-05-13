@@ -1,17 +1,8 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
+
   <head>
     
     <title>Contact - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
-    <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
-  </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-    
-        <!-- End Header -->
+</head>
         <main id="main">
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
@@ -61,10 +52,3 @@
       <!-- End Contact Section -->
     </main>
     <!--End main-->
-
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>

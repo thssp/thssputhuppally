@@ -1,17 +1,7 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
+<head>
     <title>About - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
-    <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
-  </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-    
-
+    </head>
+    <?php include('inc_config.php'); ?>
     <main id="main">
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
@@ -72,15 +62,13 @@
                 </li>
               </ul>
             </div>
+            <div class="row" data-aos="fade-up" data-aos-delay="200">       
+              <div class="col-lg-4 col-md-6">
+                 <iframe width="100%" height="300" src="https://www.youtube.com/embed/aJ09OY09_uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </div> 
+            </div>
           </div>
         </div>
       </section>
       <!-- End About Section -->
     </main>
-
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>

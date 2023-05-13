@@ -1,17 +1,10 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
+
   <head>
     
     <title>Gallery - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
-    <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
+   
   </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-
-
+ 
       
     <main id="main">
       <!-- ======= Gallery Section ======= -->
@@ -62,10 +55,3 @@
     </main>
     <!-- End #main -->
 
-
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>
