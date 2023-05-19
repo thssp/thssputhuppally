@@ -1,17 +1,7 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
+<head>
     <title>About - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
-    <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
-  </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-    
-
+    </head>
+    <?php include('inc_config.php'); ?>
     <main id="main">
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
@@ -52,6 +42,7 @@
               <ul>
                 <li>
                   <strong>Secondary Level : </strong> 90 Seats
+                  <p>Classes VIII - X</p>
                 </li>
               </ul>
             </div>
@@ -72,15 +63,14 @@
                 </li>
               </ul>
             </div>
+            <div class="col-lg-5 section-title">
+              <br>
+              <br>
+              <h2 style="text-align: center; font-size: 23px">About School Video</h2>              
+            <?php include('inc_about_youtube.php')?>
+            </div>
           </div>
         </div>
       </section>
       <!-- End About Section -->
     </main>
-
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>

@@ -189,17 +189,6 @@ h6 {
   position: relative;
 }
 
-.blink_text {
-  animation: blinker 1s linear infinite;
-  color: #ff5828;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -1025,6 +1014,7 @@ section {
   opacity: 1;
 }
 
+
 /* Facilities info text */
 .image-info {
   font-family: "Raleway", sans-serif;
@@ -1034,6 +1024,16 @@ section {
   color: #252525;
   font-weight: 600;
 }
+
+
+
+/*Video*/
+
+.video-responsive {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+
 
 /*--------------------------------------------------------------
 # Contact

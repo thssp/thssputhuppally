@@ -4,41 +4,41 @@
       <img src="assets/img/logo.png" alt="IHRD logo" class="img-fluid">
     </a>
     <h1 class="logo me-auto me-lg-0">
-      <a class="d-none d-lg-block" href="index.php">Technical Higher Secondary School Puthuppally</a>
-      <a class="d-block d-lg-none" href="index.php">THSS Puthuppally</a>
+      <a class="d-none d-sm-none d-md-block d-lg-block" href="index.php">Technical Higher Secondary School Puthuppally</a>
+      <a class="d-block d-sm-block d-md-none d-lg-none" href="index.php">THSS Puthuppally</a>
     </h1>
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?> href="index.php">Home</a>
+          <a href="?page=home" class="<?php if($page == "home") { echo"active"; } ?>" >Home</a>
         </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'class="active"'; ?> href="about.php">About</a>
+          <a href="?page=about" class="<?php if($page == "about") { echo"active"; } ?>" >About</a>
         </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'admission.php') echo 'class="active"'; ?> href="admission.php">Admissions</a>
+          <a href="?page=admission" class="<?php if($page == "admission") { echo"active"; } ?>" >Admissions</a>
         </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'faculties.php') echo 'class="active"'; ?> href="faculties.php">Faculties</a>
+          <a href="?page=faculties" class="<?php if($page == "faculties") { echo"active"; } ?>" >Faculties</a>
         </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'facilities.php') echo 'class="active"'; ?> href="facilities.php">Facilities</a>
+          <a href="?page=facilities" class="<?php if($page == "facilities") { echo"active"; } ?>" >Facilities</a>
         </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'activity.php') echo 'class="active"'; ?> href="activity.php">Activities</a>
+          <a href="?page=activity" class="<?php if($page == "activity") { echo"active"; } ?>" >Activities</a>
         </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'achievements.php') echo 'class="active"'; ?> href="achievements.php">Achievements</a>
+          <a href="?page=achievements" class="<?php if($page == "achievements") { echo"active"; } ?>" >Achievements</a>
         </li>
         <li class="dropdownlist">
-          <button class="dropbtn <?php if (basename($_SERVER['PHP_SELF']) == 'gallery.php') echo 'active'; elseif (basename($_SERVER['PHP_SELF']) == 'videogallery.php') echo 'active'; ?>">Gallery</button>
+          <button class="dropbtn <?php if($page == "gallery" || $page == "videogallery") { echo"active"; } ?>">Gallery</button>
           <div class="dropdownlist-content">
-            <a href="gallery.php">Images</a>
-            <a href="videogallery.php">Videos</a>
+            <a href="?page=gallery">Images</a>
+            <a href="?page=videogallery">Videos</a>
           </div>
-         </li>
+        </li>
         <li>
-          <a <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"'; ?> href="contact.php">Contact</a>
+          <a href="?page=contact" class="<?php if($page == "contact") { echo"active"; } ?>">Contact</a>
         </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -47,3 +47,5 @@
     <!--social links-->
   </div>
 </header>
+
+

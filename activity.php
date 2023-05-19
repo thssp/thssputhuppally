@@ -1,16 +1,7 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
-    <title>Activity - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
+<head>
+        <title>Activity - THSS Puthuppally</title>
     <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
-  </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-    
+</head>
      <!-- End Header -->
      <main id="main">
       <!-- ======= Activities ======= -->
@@ -79,9 +70,3 @@
     </main>
     <!-- End #main -->
 
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>

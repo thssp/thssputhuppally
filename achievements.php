@@ -1,16 +1,7 @@
-<?php include('inc_config.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    
+
+<head>    
     <title>Achievements - THSS Puthuppally</title>
-    <?php include('inc_metadata.php');?>
-    <!--Designed by Godly K Mathews 2021-2023 plustwo Batch-->
-  </head>
-  <body>
-    <!--Header-->
-    <?php include('inc_header.php');?>
-    
+</head>
      <!-- End Header -->
      <main id="main">
       <!-- ======= Achievements Section ======= -->
@@ -52,16 +43,16 @@
                   <img src="assets/annoucements/alvinitquiz.webp" class="img-fluid" alt="">
                 </div>
               </div>
+            <br>
+            <br>
+            <div class="col-lg-4 col-md-6 gallery-item">
+              <div>
+                <img src="assets/annoucements/vettomproject.webp" style="height:100%; width:100%; paddingpx" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- End Section -->
     </main>
     <!--End main-->
-
-    <!--footer-->
-    <?php include('inc_preloader.php'); ?>
-    <?php include('inc_footer.php'); ?>
-    <?php include('inc_bottom.php'); ?>
-  </body>
-</html>
