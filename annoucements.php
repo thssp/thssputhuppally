@@ -21,18 +21,11 @@
                     <li class="news-item">
                       <table cellpadding="4">
                         <tr>
-                          <td class="d-none d-lg-block">
+                          <td>
                             <a href="?page=admission">
-                              <img style="height: 350px; width: 700px;" src="assets/annoucements/admissions2023.webp" alt="Desktop">
+                              <img style="height: 40%; width: 100%;" src="assets/annoucements/admissions2023.webp" alt="admissions2023">
                             </a>
                           </td>
-                          <!-- Desktop view -->
-                          <td class="d-block d-lg-none">
-                            <a href="?page=admission">
-                              <img style="height: 40%; width: 100%;" src="assets/annoucements/admissions2023.webp" alt="mobile">
-                            </a>
-                          </td>
-                          <!-- Mobile view -->
                         </tr>
                       </table>
                     </li>

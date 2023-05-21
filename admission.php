@@ -14,7 +14,7 @@
             <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 content lists">
                 <ul>
-                    <li><img class="d-none d-lg-block" data-aos="zoom-in" style="height: 350px; width: 700px;" src="assets/annoucements/admissions2023.webp" alt=""></li> <!--Desktop veiw-->
+                    <li><img class="d-none d-lg-block" data-aos="zoom-in" style="height: 450px; width: 800px;" src="assets/annoucements/admissions2023.webp" alt=""></li> <!--Desktop veiw-->
                     <li><img class="d-block d-lg-none" data-aos="zoom-in" style="height: 40%; width: 100%;" src="assets/annoucements/admissions2023.webp" alt=""></li> <!--mobile veiw-->
                     <br>
                     <li><i class="fas fa-file-pdf"></i>
