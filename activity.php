@@ -136,6 +136,18 @@
               </div>
             </div>
 
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <img src="assets/logo/socialsciencelogo.webp" alt="snehitha" style="height: 110px; width: 110px; display: block;">
+                </div>
+                <h4>
+                  Social Science Club
+                </h4>
+                <p>The Social Science Club in our school is an engaging community that explores various aspects of human society and its development. Through interactive discussions, presentations, and projects, students delve into subjects like history, geography, and sociology. The club aims to enhance students' understanding of the world, fostering critical thinking and a broader perspective on social issues.</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
