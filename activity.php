@@ -115,7 +115,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
                 <div class="icon">
-                  <img src="assets/logo/birdclublogo.webp" alt="snehitha" style="height: 110px; width: 110px; display: block;">
+                  <img src="assets/logo/birdclublogo.webp" alt="bird club" style="height: 110px; width: 110px; display: block;">
                 </div>
                 <h4>
                   Bird's Club
@@ -127,7 +127,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
                 <div class="icon">
-                  <img src="assets/logo/ecoclublogo.webp" alt="snehitha" style="height: 110px; width: 110px; display: block;">
+                  <img src="assets/logo/ecoclublogo.webp" alt="eco club" style="height: 110px; width: 110px; display: block;">
                 </div>
                 <h4>
                   Eco Club
@@ -139,7 +139,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
                 <div class="icon">
-                  <img src="assets/logo/socialsciencelogo.webp" alt="snehitha" style="height: 110px; width: 110px; display: block;">
+                  <img src="assets/logo/socialsciencelogo.webp" alt="social science" style="height: 110px; width: 110px; display: block;">
                 </div>
                 <h4>
                   Social Science Club
