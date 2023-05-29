@@ -8,8 +8,6 @@
       <section id="activity" class="activity">
         <div class="container" data-aos="fade-up">
           <br>
-          <br>
-          <br>
           <div class="section-title">
             <h2>Activities</h2>
             <q>Learn as much as you can while you are young, since life becomes too busy later.</q>
@@ -67,12 +65,12 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
                 <div class="icon">
-                  <img src="assets/logo/literaryclublogo.webp" alt="literay club" style="height: 110px; width: 110px; display: block;">
+                  <img src="assets/logo/nalla-padam-logo.webp" alt="nalla padam" style="height: 110px; width: 180px; display: block;">
                 </div>
                 <h4>
-                Literary Club
+                NALLA PADAM
                 </h4>
-                <p>Literary club plays a very important role in defining the subtle basics of language and culture in students. In today's world of electronic media, students are loosing their relation to the society and the natural world in general. Literary activities are very important in schools in this context. Students are given a large number of opportunities to develop their language and expression skills by means of activities and competitions, which extends to the surrounding societies and their issues.</p>
+                <p>Nalla Padam is an initiative of Malayala Manorama to promote social and cultural activities among schools. It aims to channel the youth energy to constructive areas. The project has been running for several years now and has been successful in uncovering student talents and promoting social service activities by schools.</p>
               </div>
             </div>
 
@@ -100,6 +98,19 @@
               </div>
             </div>
 
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <img src="assets/logo/literaryclublogo.webp" alt="literay club" style="height: 110px; width: 110px; display: block;">
+                </div>
+                <h4>
+                Literary Club
+                </h4>
+                <p>Literary club plays a very important role in defining the subtle basics of language and culture in students. In today's world of electronic media, students are loosing their relation to the society and the natural world in general. Literary activities are very important in schools in this context. Students are given a large number of opportunities to develop their language and expression skills by means of activities and competitions, which extends to the surrounding societies and their issues.</p>
+              </div>
+            </div>
+            
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
                 <div class="icon">

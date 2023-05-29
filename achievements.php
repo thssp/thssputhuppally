@@ -8,11 +8,17 @@
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <br>
-          <br>
           <div class="section-title">
             <h2>Achievements</h2>
           </div>
           <div class="row gallery-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 gallery-item" data-aos="zoom-in">
+              <div>
+                <img src="assets/annoucements/plustworesult2023.webp" class="img-fluid" alt="godlyjoswin">
+              </div>
+            </div>
+            <br>
+            <br>
           <div class="col-lg-4 col-md-6 gallery-item" data-aos="zoom-in">
               <div>
                 <img src="assets/annoucements/2023thslc.webp" class="img-fluid" alt="godlyjoswin">

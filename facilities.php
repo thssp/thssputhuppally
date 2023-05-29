@@ -8,8 +8,6 @@
       <section id="gallery" class="gallery">
         <div class="container" data-aos="fade-up">
           <br>
-          <br>
-          <br>
           <div class="section-title">
             <h2>Facilities</h2>
             <br>

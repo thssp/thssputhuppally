@@ -8,8 +8,6 @@
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <br>
-          <br>
-          <br>
           <div class="section-title">
             <h2>Contact</h2>
             <p></p>

@@ -66,6 +66,7 @@
               <ul class="news">
                 <li class="news-item">
                   <div class="slider scrollable-wrapper" >
+                    <img id="news-item-img" src="assets/annoucements/plustworesult2023.webp" alt="Desktop">
                     <img id="news-item-img" src="assets/annoucements/2023thslc.webp" alt="Desktop">
                     <img id="news-item-img" src="assets/annoucements/godlyjoswin.webp" alt="Desktop">                    
                     <img id="news-item-img" src="assets/annoucements/exhibitionwinners.webp" alt="Desktop">

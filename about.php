@@ -7,8 +7,6 @@
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <br>
-          <br>
-          <br>
           <div class="section-title">
             <h2>About</h2>
             <!--Institution-->

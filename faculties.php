@@ -6,7 +6,6 @@
       <section id="faculty" class="faculty">
         <div class="container" data-aos="fade-up">
           <br>
-          <br>
           <div class="section-title">
             <h2>Faculties</h2>
           </div>
