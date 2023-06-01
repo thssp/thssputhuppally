@@ -33,8 +33,8 @@
         <li class="dropdownlist">
           <button class="dropbtn <?php if($page == "gallery" || $page == "videogallery") { echo"active"; } ?>">Gallery</button>
           <div class="dropdownlist-content">
-            <a href="?page=gallery">Images</a>
-            <a href="?page=videogallery">Videos</a>
+            <a href="?page=gallery" class="<?php if($page == "gallery") { echo"active"; } ?>" >Images</a>
+            <a href="?page=videogallery" class="<?php if($page == "videogallery") { echo"active"; } ?>" >Videos</a>
           </div>
         </li>
         <li>

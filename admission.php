@@ -100,13 +100,13 @@
                 <li><i class="fa-solid fa-link"></i><a href="http://www.ihrd.ac.in/" target="_blank">  Institute of Human Resources Development</a></li>
                 <li><i class="fa-solid fa-link"></i><a href="http://dhsekerala.gov.in/" target="_blank">  Higher Secondary Education</a></li>
                 <li><i class="fa-solid fa-link"></i><a href="https://samagra.kite.kerala.gov.in/" target="_blank">  Samagra' eResource Portal</a></li> 
-                <li><i class="fa-solid fa-link"></i><a href="https://www.scert.kerala.gov.in" target="_blank">State Council of Educational Research & Training (SCERT)</a></li>
+                <li><i class="fa-solid fa-link"></i><a href="https://www.scert.kerala.gov.in" target="_blank">  State Council of Educational Research & Training (SCERT)</a></li>
                 <li><i class="fa-solid fa-link"></i><a href="https://scholarships.gov.in/" target="_blank"> National Scholarship Portal</a></li>
                 <li><i class="fa-solid fa-link"></i><a href="https://www.egrantz.kerala.gov.in/" target="_blank"> E-Grantz Scholarships Portal</a></li>
-                <li><i class="fa-solid fa-link"></i><a href="https://www.cee.kerala.gov.in/" target="_blank">Commissionarate of Entrance Examinations-Kerala</a></li>
-                <li><i class="fa-solid fa-link"></i><a href="https://nta.ac.in/" target="_blank">National Testing Agency</a></li>
-                <li><i class="fa-solid fa-link"></i><a href="http://highereducation.kerala.gov.in/" target="_blank">Higher Education Department</a></li>
-                <li><i class="fa-solid fa-link"></i><a href="https://kerala.gov.in/" target="_blank">Government of Kerala</a></li>
+                <li><i class="fa-solid fa-link"></i><a href="https://www.cee.kerala.gov.in/" target="_blank">  Commissionarate of Entrance Examinations-Kerala</a></li>
+                <li><i class="fa-solid fa-link"></i><a href="https://nta.ac.in/" target="_blank">  National Testing Agency</a></li>
+                <li><i class="fa-solid fa-link"></i><a href="http://highereducation.kerala.gov.in/" target="_blank">  Higher Education Department</a></li>
+                <li><i class="fa-solid fa-link"></i><a href="https://kerala.gov.in/" target="_blank">  Government of Kerala</a></li>
                </ul>
             </div>
         </div>
