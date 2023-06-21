@@ -10,7 +10,7 @@
      <!-- Designed By. -->
       <div class="text-center p-3 designedby">
         Web Design:
-        <a href="https://godlykm.github.io/GodlyKMathews/?fbclid=IwAR3z51WLYtoYAwJzB9ESCu7L6zv7Jh6hWiCplYcRfssjgNKwC0ZArE-Ohso#about" target="_blank" style="font-size: 13px;">Godly K Mathews</a>  +2 PS (2021-2023)
+        <a href="https://godlykmathews.github.io/" target="_blank" style="font-size: 13px;">Godly K Mathews</a>  +2 PS (2021-2023)
                 <!-- Linkedin -->
                 <a
                 class="btn text-white btn-floating m-1"
