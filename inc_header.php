@@ -4,8 +4,8 @@
       <img src="assets/img/logo.png" alt="IHRD logo" class="img-fluid">
     </a>
     <h1 class="logo me-auto me-lg-0">
-      <a class="d-none d-sm-none d-md-block d-lg-block" href="index.php">Technical Higher Secondary School Puthuppally</a>
-      <a class="d-block d-sm-block d-md-none d-lg-none" href="index.php">THSS Puthuppally</a>
+      <a class="d-none d-sm-none d-md-block d-lg-block" href="./">Technical Higher Secondary School Puthuppally</a>
+      <a class="d-block d-sm-block d-md-none d-lg-none" href="./">THSS Puthuppally</a>
     </h1>
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
